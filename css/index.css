@@ -68,6 +68,9 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
   @media(min-width: 492px) {
     height: 100vh;
   }
+  @media(max-width: 492px) {
+    padding-bottom: 15px;
+  }
   position: relative;
   background-image: url("../img/banner_saga.png");
   background-position: center;
