@@ -1,0 +1,15 @@
+.title {
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 8.95px;
+  text-align: center;
+  position: relative; }
+  .title::after {
+    content: '';
+    position: absolute;
+    width: 81px;
+    height: 1px;
+    background-color: #000000;
+    left: 50.9%;
+    margin: 0 0 0 -52.5px;
+    bottom: -60%; }

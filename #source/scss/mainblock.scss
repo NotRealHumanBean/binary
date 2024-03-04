@@ -1,0 +1,82 @@
+.mainblock {
+    display: flex;
+    flex: 1 1 auto;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url('/img/banner_saga.png');
+    background-position: center;
+    background-attachment: local;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 0px;
+    padding: 6% 0 0 0;
+    @media (max-width: 992px ) {
+        padding-top: 12%;
+      }
+      @media (max-width: 500px ) {
+        padding-top: 25%;
+      }
+    .mainblock__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .mainblock__logo {
+            margin-bottom: 9%;
+        }
+        .mainblock__title {
+            @media (max-width: 768px ) {
+                margin-top: 5%;
+            }
+            color: #ffffff;
+            text-align: center;
+            margin-bottom: 25%;
+            position: relative;
+            h1 {
+                font-size: 34px;
+                font-family: "Lato-Black";
+                text-transform: uppercase;
+                font-weight: 900;
+                letter-spacing: 5.43px;
+                margin-bottom: 10px;
+                @media (max-width: 500px ) {
+                    font-size: 24px;
+                    margin-top: 50px;
+                  }
+            }
+            span {
+                font-size: 26px;
+                font-weight: 400;
+                letter-spacing: 4.15px;
+                @media (max-width: 500px ) {
+                    display: inline-block;
+                    font-size: 16px;
+                    margin-bottom: 50px;
+                  }
+            }
+            ::after {
+                content: '';
+                width: 105px;
+                height: 2px;
+                background-color: #ffffff;
+                position: absolute;
+                left: 50%;
+                margin: 0 0 0 -52.5px;
+                bottom: -60%;
+                @media (max-width: 500px ) {
+                    bottom: -30%;
+                }
+            }
+            @media (max-width: 992px) {
+                padding: 0px 10%;
+
+            }
+        }
+        .mainblock__anchor-link {
+            display: inline-block;
+            margin-top: 50px;
+        }
+    }
+}

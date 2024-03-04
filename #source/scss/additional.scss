@@ -1,0 +1,76 @@
+//--------------------------------------------------------------- TITLE BLOCK -----------------------------------------------------------------
+.title {
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 8.95px;
+    text-align: center;
+    position: relative;
+    @media (max-width: 300px) {
+        font-size: 20px;
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        width: 81px;
+        height: 1px;
+        background-color: #000000;
+        left: 50.9%;
+        margin: 0 0 0 -52.5px;
+        bottom: -60%;
+        @media (max-width: 300px) {
+            width: 61px;
+            left: 58%;
+        }
+
+    }
+}
+.title-modified {
+    @media (max-width: 300px) {
+        &::after {
+            content: '';
+            position: absolute;
+            width: 61px;
+            height: 1px;
+            background-color: #000000;
+            left: 70%;
+            margin: 0 0 0 -52.5px;
+            bottom: -60%;
+            @media (max-width: 300px) {
+                width: 61px;
+                left: 68%;
+            }
+    
+        }
+    }
+}
+//--------------------------------------------------------------- TITLE BLOCK -----------------------------------------------------------------
+
+
+//--------------------------------------------------------------- BUTTON BLOCK ----------------------------------------------------------------
+.mainblock__readmore {
+    position: relative;
+    @media (max-width: 768px ) {
+        margin-top: 7%;
+    }
+}
+.readmore-button {
+    padding: 18px 40px;
+    a {
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 0.67px;
+    }
+}
+.w {
+    border: 2px solid #ffffff;
+    a {
+        color: #ffffff;
+    }
+}
+.b {
+    border: 2px solid black;
+    a {
+        color: black;
+    }
+}
+//--------------------------------------------------------------- BUTTON BLOCK ----------------------------------------------------------------
