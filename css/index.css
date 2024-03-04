@@ -67,7 +67,7 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
   width: 100%;
   height: 100vh;
   position: relative;
-  background-image: url("/img/banner_saga.png");
+  background-image: url("../img/banner_saga.png");
   background-position: center;
   background-attachment: local;
   background-size: cover;
@@ -335,8 +335,8 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
 
 @font-face {
   font-family: 'Lato-Black';
-  src: url("/fonts/Lato-Black.eot");
-  src: url("/fonts/Lato-Black.woff") format("woff"), url("/fonts/Lato-Black.woff2") format("woff2"), url("/fonts/Lato-Black.otf") format("otf"), url("/fonts/Lato-Black.svg") format("svg"); }
+  src: url("../fonts/Lato-Black.eot");
+  src: url("../fonts/Lato-Black.woff") format("woff"), url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.otf") format("otf"), url("../fonts/Lato-Black.svg") format("svg"); }
 
 body {
   font-family: 'Lato', sans-serif;
@@ -496,7 +496,7 @@ body {
 
 .content__partners {
   width: 100vw;
-  background-image: url("/img/partners/prtnrsbg.png");
+  background-image: url("../img/partners/prtnrsbg.png");
   background-position: -3px -120px;
   background-size: cover;
   background-repeat: no-repeat;
